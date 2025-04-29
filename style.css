@@ -1,0 +1,181 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nadpis{
+    text-align: center;
+    background-color: rgb(8, 102, 8);
+    color: white;
+    padding: 50px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.menu{
+    background-color: rgb(128, 184, 128);
+    padding: 10px;
+    text-align: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.o_nas{
+    display: flex;
+    text-align: start;
+    border: solid 1px gray;
+    border-radius: 10px;
+    width: 40%;
+    flex-direction: column;
+    padding: 10px;
+}
+
+h4{
+    margin: 0;
+}
+
+.adresa{
+    display: flex;
+    text-align: start;
+    border: solid 1px gray;
+    border-radius: 10px;
+    width: 40%;
+    flex-direction: column;
+    padding: 10px;
+}
+
+p{
+    margin: 0;
+}
+
+.containter, .box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.oteviraci_doba{
+    display: flex;
+    text-align: start;
+    border: solid 1px gray;
+    border-radius: 10px;
+    width: 40%;
+    flex-direction: column;
+    padding: 10px;
+}
+
+table{
+    border: solid 1px;
+}
+
+th, td{
+    border: solid 1px;
+    text-align: center;
+}
+
+.kontakt{
+    display: flex;
+    text-align: start;
+    border: solid 1px gray;
+    border-radius: 10px;
+    width: 40%;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.nadpis:hover{
+    background-color: rgb(56, 146, 56);
+    transition: 0.5s;
+}
+
+img{
+    width: 300px;
+    height: auto;
+    flex-wrap: wrap;
+}
+.chleba, .musli, .zelenina, .ovoce, .susene_ovoce, .orechy{
+    display: flex;
+    border: solid 1px gray;
+    flex-direction: column;
+    width: 600px;
+    border-radius: 10px;
+    align-items: center;
+    padding: 10px;
+}
+
+.karty{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.odpovedi{
+    display: flex;
+    width: 800px;
+    height: 600px;
+}
+
+.informace_kurz, .prihlaska, .odpovedi{
+    display: flex;
+    text-align: start;
+    border: solid 1px gray;
+    border-radius: 10px;
+    width: 40%;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.address, .about_us, .contact, .odkazy{
+    display: flex;
+    text-align: start;
+    border: solid 1px gray;
+    border-radius: 10px;
+    width: 40%;
+    flex-direction: column;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.konec{
+    color: white;
+    background-color: rgb(8, 102, 8);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.nadpis_zdroje{
+    text-align: center;
+    background-color: rgb(8, 102, 8);
+    color: white;
+    padding: 50px;
+    width: 100%;
+}
+.nadpis_zdroje:hover{
+    background-color: rgb(56, 146, 56);
+    transition: 0.5s;
+}
+.konec_zdroje{
+    color: white;
+    background-color: rgb(8, 102, 8);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+}
+.zdroje_menu{
+    background-color: rgb(128, 184, 128);
+    padding: 10px;
+    text-align: center;
+}
